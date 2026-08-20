@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+    
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <style>
+       h1 {
+            color:#6F9662;
+            font-family: great-vibes, cursive;
+            font-size: 45px;
+       }
+
+       body {
+            margin: 0;
+            background-color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+       }
+
+        nav {
+            background-color: #6F9662;
+            padding: 2px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 9px;
+            font-weight: bold;
+        }
+
+        .favorite {
+            color: white;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 15px;
+            width: 80%;
+            font-family: great-vibes, cursive;
+            text-align: center;
+        }
+
+        .picture-box {
+            background-color: #A4C495;
+        }
+
+        .audio-box {
+            background-color: #86AD77;
+        }
+
+        .video-box {
+            background-color: #6F9662;
+        }
+
+        .favorite img,
+        .favorite audio,
+        .favorite video {
+            display: block;
+            margin: 0 auto;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+        </ul>
+    </nav>
+
+    <h1>About Me!</h1>
+
+    <div class="favorite picture-box">
+        <h2> My Favorite Picture: </h2>
+        <img src="Mikaela.jpg" alt="My Favorite Picture" width="270">
+    </div>
+
+    <div class="favorite audio-box">
+        <h2> My Favorite Audio: </h2>
+        <audio controls>
+            <source src="Mika.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <div class="favorite video-box">
+        <h2>My Favorite Video: </h2>
+        <video width="250" controls>
+            <source src="Mika.mp4" type="video/mp4">
+        </video>
+    </div>
+
+</body>
+
+</html>
